@@ -1,13 +1,26 @@
 package EjerciciosComplementariosLevel1;
+import java.util.*;
 
-
-
-public class Ejercicio1 {
+public class Ejercicio2 {
 
     public static void main(String[] args) {
 
-        /* Realizar un programa que realice la impresión por consola del siguiente mensaje "Hola Informatorio 2020!!" */
+        /* Solicitar por consola el nombre del usuario e imprimir por pantalla el siguiente mensaje “HOLA {USUARIO}!!!” */
 
-        System.out.println("Hola Informatorio 2020!!");
-    }
+        // Solicitar por consola el nombre del usuario
+        System.out.println("Ingrese nombre del usuario");
+
+        // imprimir por pantalla el siguiente mensaje “HOLA {USUARIO}!!!”
+
+        Scanner scan = new Scanner(System.in);
+        String a = scan.nextLine();
+
+        System.out.println("HOLA "+ a + "!!!");
+        scan.close();
+
+
+
+
+    }      
+    
 }
