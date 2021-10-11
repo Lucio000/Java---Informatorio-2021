@@ -10,10 +10,10 @@ public class Ejercicio4 {
         Sin hacer uso de librerías.
         */
 
-        // 
-        System.out.println(" ");
+        // Se solicita numero
+        System.out.println("Ingrese un numero: ");
 
-        // 
+        // Se realiza el factorial
 
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
@@ -21,10 +21,10 @@ public class Ejercicio4 {
 
         for ( int i = 1; i <= a; i++){
 
-            c = c *i;
+            c = c * i;
         }
-        
-        System.out.println("El factorial de "+ a + " es : " +c);
+
+        System.out.println("El factorial de "+ a + " es : " + c);
     
         scan.close();
 
