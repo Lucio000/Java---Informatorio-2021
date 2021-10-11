@@ -15,7 +15,7 @@ public class Ejercicio1 {
         Scanner scan = new Scanner(System.in);
         String a = scan.nextLine();
 
-        System.out.println("El primer nro ingresado es: " + a);
+        System.out.println("HOLA"+ a + "!!!");
         scan.close();
 
 
