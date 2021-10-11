@@ -13,11 +13,11 @@ public class Ejercicio4 {
         // Se solicita numero
         System.out.println("Ingrese un numero: ");
 
-        // Se realiza el factorial
-
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
         int c = 1;
+
+        // Se realiza el factorial
 
         for ( int i = 1; i <= a; i++){
 
