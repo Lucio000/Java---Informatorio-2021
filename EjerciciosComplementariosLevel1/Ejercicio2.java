@@ -10,10 +10,10 @@ public class Ejercicio2 {
         Para luego imprimir el resultado de la suma, resta, multiplicación, división y módulo (resto de la división) de ambos números.
         */
 
-        // imprimir el resultado de la suma, resta, multiplicación, división y módulo (resto de la división) de ambos números
+        // solicite por consola 2 números enteros
         System.out.println("Ingrese consola 2 números enteros");
 
-        // imprimir por pantalla el siguiente mensaje “HOLA {USUARIO}!!!”
+        // imprimir el resultado de la suma, resta, multiplicación, división y módulo (resto de la división) de ambos números
 
         Scanner scan = new Scanner(System.in);
         int a = scan.nextInt();
