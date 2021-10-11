@@ -27,10 +27,10 @@ public class Ejercicio8 {
         System.out.println("Ingrese direccion: ");
         String direccion = scan.nextLine();
 
-        System.out.println("Ingrese edad: ");
+        System.out.println("Ingrese ciudad: ");
         String ciudad = scan.nextLine();
 
-        
+
         System.out.println(ciudad + " - " + direccion + " - " + edad + " - " + nombreYApellido );
     
         scan.close();
