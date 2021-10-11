@@ -1,7 +1,7 @@
 package EjerciciosComplementariosLevel1;
 import java.util.*;
 
-public class Ejercicio2 {
+public class Ejercicio1 {
 
     public static void main(String[] args) {
 
